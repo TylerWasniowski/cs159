@@ -1,0 +1,8 @@
+Immediately before the fork. Only one process at this point.
+Immediately after the fork. This statement should print twice.
+Parent starting wait.
+Immediately after the fork. This statement should print twice.
+Child going to sleep.
+Child finished sleeping.
+Child exiting...
+Parent finished wait.
