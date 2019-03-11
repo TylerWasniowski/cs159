@@ -1,0 +1,23 @@
+Immediately after creating A.
+A: I am 16713, and my parent is 13578.
+Immediately before creating B. Only one process at this point.
+Immediately before creating C.
+Immediately after creating B.
+B: I am 16714, and my parent is 16713.
+Immediately before creating D.
+Immediately after creating C.
+C: I am 16715, and my parent is 16713.
+Immediately before creating E.
+Immediately after creating D.
+D: I am 16716, and my parent is 16714.
+Exiting D...
+Immediately before creating F.
+Exiting B...
+Immediately after creating F.
+F: I am 16718, and my parent is 16715.
+Exiting F...
+Immediately after creating E.
+E: I am 16717, and my parent is 16715.
+Exiting E...
+Exiting C...
+Exiting A...

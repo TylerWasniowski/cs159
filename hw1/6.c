@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
     printf("Immediately after the fork. This statement should print twice.\n");
     if (pid < 0) { printf("Forking error.\n"); return EXIT_FAILURE; }
     else if (pid == 0) printf("I am the child. My pid is %d. My parent's pid is %d.\n", getpid(), getppid());
-    else printf("I am the parent. My pid is %d. My child's pid is %d.\n", getpid(), pid);
+    else {printf("I am the parent. My pid is %d. My child's pid is %d.\n", getpid(), pid); wait(NULL); }
     fflush(stdout); // Clear buffer after finishing.
 
     return EXIT_SUCCESS;

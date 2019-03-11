@@ -1,5 +1,5 @@
 Immediately before the fork. Only one process at this point.
 Immediately after the fork. This statement should print twice.
-I am the parent. My pid is 15497. My child's pid is 15498.
+I am the child. My pid is 16827. My parent's pid is 16826.
 Immediately after the fork. This statement should print twice.
-I am the child. My pid is 15498. My parent's pid is 15497.
+I am the parent. My pid is 16826. My child's pid is 16827.
